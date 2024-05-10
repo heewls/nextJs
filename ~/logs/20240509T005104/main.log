@@ -1,0 +1,9 @@
+2024-05-09 00:51:05.094 [info] update#setState idle
+2024-05-09 00:51:34.547 [info] update#setState checking for updates
+2024-05-09 00:51:34.948 [info] update#setState downloading
+2024-05-09 00:51:42.847 [info] Extension host with pid 3127 exited with code: 0, signal: unknown.
+2024-05-09 00:52:27.790 [info] update#setState ready
+2024-05-09 00:59:36.605 [info] Extension host with pid 3248 exited with code: 0, signal: unknown.
+2024-05-09 00:59:42.825 [info] Extension host with pid 3280 exited with code: 0, signal: unknown.
+2024-05-09 00:59:46.161 [info] Extension host with pid 3289 exited with code: 0, signal: unknown.
+2024-05-09 00:59:57.294 [info] Extension host with pid 3312 exited with code: 0, signal: unknown.

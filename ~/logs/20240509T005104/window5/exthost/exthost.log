@@ -1,0 +1,333 @@
+2024-05-09 00:59:56.686 [info] Extension host with pid 3312 started
+2024-05-09 00:59:56.712 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-09 00:59:56.715 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.726 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.727 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.735 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.736 [info] ExtensionService#_doActivateExtension tal7aouy.rainbow-bracket, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.748 [info] ExtensionService#_doActivateExtension vincaslt.highlight-matching-tag, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.755 [info] ExtensionService#_doActivateExtension zhengrenzhe.nyan-cat, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.780 [error] Activating extension zhengrenzhe.nyan-cat failed due to an error:
+2024-05-09 00:59:56.781 [error] Error: ENOENT: no such file or directory, open '/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench.html'
+    at Object.openSync (node:fs:603:3)
+    at Object.func [as openSync] (node:electron/js2c/asar_bundle:2:1869)
+    at Object.readFileSync (node:fs:471:35)
+    at Object.t.readFileSync (node:electron/js2c/asar_bundle:2:9212)
+    at backup (/Users/heejin/.vscode/extensions/zhengrenzhe.nyan-cat-0.0.8/out/extension.js:59:53)
+    at activate (/Users/heejin/.vscode/extensions/zhengrenzhe.nyan-cat-0.0.8/out/extension.js:16:5)
+    at Function.ib (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:13237)
+    at Function.hb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:12951)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:11080
+    at u.n (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:6255)
+    at u.m (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:6218)
+    at u.l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:5675)
+2024-05-09 00:59:56.781 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.796 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-09 00:59:56.908 [info] Eager extensions activated
+2024-05-09 00:59:56.986 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.031 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.036 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.043 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.065 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.069 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.084 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.102 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.105 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.140 [info] ExtensionService#_doActivateExtension tonybaloney.vscode-pets, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.146 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 00:59:57.213 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-09 00:59:57.235 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.235 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.236 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.236 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.236 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.236 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.236 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.236 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.237 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.237 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.237 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.237 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.237 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.237 [error] Canceled: Canceled
+    at Object.C [as $6] (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+    at Array.forEach (<anonymous>)
+    at l.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.243 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at d.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+    at d.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at p.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+    at d.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+    at d.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+    at d.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+    at w (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1081:41198)
+    at h (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:18411)
+    at s (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16438)
+    at /Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1041:19501)
+    at s (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at f.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+    at Array.map (<anonymous>)
+    at f.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.243 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at d.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+    at d.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at p.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+    at d.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+    at d.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+    at d.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+    at w (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1081:41198)
+    at h (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:18411)
+    at s (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16438)
+    at /Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1041:19501)
+    at s (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at f.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+    at Array.map (<anonymous>)
+    at f.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.243 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at d.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+    at d.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at p.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+    at d.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+    at d.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+    at d.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+    at w (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1081:41198)
+    at h (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1081:46237)
+    at ActionRunners._updateContextKeys (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:18411)
+    at s (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16855)
+    at RegisteredActionRunner.unregister (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16998)
+    at RegisteredActionRunner.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:15651)
+    at ActionRunners.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:663:16438)
+    at /Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1041:19519
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1041:19501)
+    at s (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at f.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+    at Array.map (<anonymous>)
+    at f.Y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+    at s.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-09 00:59:57.244 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at A.loadCertificates (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:39023)
+    at Object.loadAdditionalCertificates (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:34240)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:475:53
+    at Generator.next (<anonymous>)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:31:12)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:474:43
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:476:16
+    at Generator.next (<anonymous>)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:31:12)
+    at getOrLoadAdditionalCertificates (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:472:12)
+    at addCertificatesV1 (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:456:9)
+    at resolveProxy (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:112:9)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:303:77
+    at new Promise (<anonymous>)
+    at _PacProxyAgent.resolveP (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:303:54)
+    at _PacProxyAgent.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:70:37)
+    at Generator.next (<anonymous>)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:4:12)
+    at _PacProxyAgent.connect (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:52:16)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/agent-base/dist/index.js:73:30
+2024-05-09 00:59:57.245 [info] Extension host with pid 3312 exiting with code 0
+2024-05-09 00:59:57.245 [error] Canceled: Canceled
+    at new g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at d.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+    at d.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at p.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+    at d.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+    at d.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+    at d.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+    at w (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1081:41198)
+    at h (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1081:46237)
+    at VslsController.initialize (/Users/heejin/.vscode/extensions/eamodio.gitlens-14.9.1/dist/gitlens.js:1040:19653) setContext undefined
