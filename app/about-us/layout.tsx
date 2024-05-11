@@ -3,10 +3,5 @@ export const metadata = {
 };
 
 export default function AboutUsLayout({ children }: { children: React.ReactNode }) {
-    return (
-        <div>
-            {children}
-            Next JS is great!
-        </div>
-    );
+    return <div>{children}</div>;
 }
